@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/settings.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/settings.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/listitems.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/listitems.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/dialog_color_picker.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/dialog_color_picker.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/renamediag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/renamediag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/uploadfilediag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/uploadfilediag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/gridlistitem.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/gridlistitem.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/newfilediag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/newfilediag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/themes.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/themes.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/finddiag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/finddiag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/themelistitems.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/themelistitems.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/terminal.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/terminal.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/account_list_item.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/account_list_item.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/dialog.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/dialog.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/accounts.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/accounts.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/saveasdiag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/saveasdiag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/tab_edit_view.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/tab_edit_view.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/themelist.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/themelist.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/edit.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/edit.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/importaccount.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/importaccount.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/importdiag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/importdiag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/accountsdiag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/accountsdiag.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/addaccount.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/addaccount.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/dialog_grid.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/dialog_grid.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/layout/chmoddiag.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/layout/chmoddiag.xml"
+    }
+]

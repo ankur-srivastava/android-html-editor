@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:id="@+id/layout_root"
+    android:orientation="vertical" >
+    
+   
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+ android:textColor="#0099cc"
+        android:text="Change Permission"
+        android:textSize="28dp" />
+    <!--  -->
+<TextView
+          android:id="@+id/themeUrl"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/title"
+          android:layout_marginLeft="10dp"
+           android:textColor="#ffffff"
+          android:textSize="18dp"
+          android:text="Chmod (0644)" />
+      <EditText
+          android:id="@+id/themeLink"
+          android:layout_below="@+id/themeUrl"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text=""
+         
+          android:singleLine="true"
+           android:layout_marginLeft="10dp"
+          android:textColor="#f8f8f8"
+        android:layout_marginRight="10dp"
+        android:inputType="number"
+          android:background="@drawable/edittext"
+          android:layout_alignParentLeft="true" />
+<!--  android:inputType="textVisiblePassword" -->
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:id="@+id/buttonsList"
+    android:layout_marginTop="10dp"
+    
+    android:layout_below="@+id/themeLink"
+    android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/saveServer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+        
+         android:textSize="14dp"
+         android:textColor="#e2e2e2"
+         android:layout_marginBottom="10dp"
+          android:text="Apply" />
+       <Button
+          android:id="@+id/closeServer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/saveServer"
+          android:layout_marginLeft="5dp"
+          android:layout_marginBottom="10dp"
+          
+          android:textSize="14dp"
+           android:textColor="#e2e2e2"
+          android:text="Close" /> 
+      
+        </LinearLayout>
+        </RelativeLayout>

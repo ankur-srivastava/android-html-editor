@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/editLayout"
+    android:orientation="vertical" >
+
+    <!--  
+
+<com.zen.androidhtmleditor.ObservableScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="50dp"
+    android:id="@+id/scroller"
+    >-->
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/editArea"
+    android:orientation="vertical" >
+     <com.zen.androidhtmleditor.JecEditText 
+    android:id="@+id/text_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:clickable="true"
+    android:fastScrollEnabled="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="top|left|center"
+    android:inputType="textMultiLine"
+    android:maxLength="99999999"
+    android:scrollbars="vertical"
+    android:background="#ffffff"
+    android:textSize="18dip" >
+
+</com.zen.androidhtmleditor.JecEditText>
+    <!--  -->
+        </LinearLayout>
+<!-- </com.zen.androidhtmleditor.ObservableScrollView> -->
+
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:layout_alignParentBottom="true"
+    android:background="#cccccc"
+    android:gravity="center"
+    android:id="@+id/bottomMenu" >
+     
+     <Button android:id="@+id/quickinputbutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="" />
+     
+     <Button android:id="@+id/searchbutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:background="@drawable/search"
+         android:layout_toRightOf="@+id/quickinputbutton"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="" />
+     
+     <Button android:id="@+id/savebutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:background="@drawable/save"
+         android:layout_toRightOf="@+id/searchbutton"
+                  android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="" />
+     
+      <Button android:id="@+id/saveasbutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_toRightOf="@+id/savebutton"
+                  android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="" />
+     
+     <Button android:id="@+id/closebutton"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:background="@drawable/close"
+         android:layout_toRightOf="@+id/saveasbutton"
+                  android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:text="" />
+     
+     </RelativeLayout>
+
+</RelativeLayout>

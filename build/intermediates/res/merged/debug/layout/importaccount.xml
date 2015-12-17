@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+    
+    
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:text="Import Accounts"
+        android:textColor="#0099cc"
+        android:textSize="30dp" />
+    
+    <TextView android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:textSize="12dp"
+        android:layout_below="@+id/title"
+        android:text="Import accounts via XML."
+        android:textColor="#ffffff"/>
+    
+    <!--  -->
+    <CheckBox android:id="@+id/checkbox_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subText"
+        android:text="Delete all existing accoutns"
+         />
+      <Button
+          android:id="@+id/saveServer"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/checkbox_id"
+          android:layout_marginLeft="10dp"
+          android:layout_marginRight="20dp"
+          android:layout_marginTop="20dp"
+          android:text="Import XML"
+          android:textColor="#e2e2e2"
+          android:textSize="14dp" />
+      
+<TextView android:id="@+id/subText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textSize="12dp"
+        android:layout_below="@+id/saveServer"
+        android:text="Copy your XML file to you SDCard root. it MUST be called ahe_import.xml and have the following format\nThis will append to your accounts. Duplicates will not be removed."
+        android:textColor="#ffffff"/>
+
+<TextView android:id="@+id/subTex3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"
+        android:layout_below="@+id/subText2"
+        android:text="&lt;Servers>\n&lt;Server>\n&lt;Name>Account Name&lt;/Name>\n&lt;Host>FTP HOST&lt;/Host>\n&lt;User>FTP User&lt;/User>\n&lt;Pass>FTP Password&lt;/Pass>\n&lt;Port>FTP Port&lt;/Port>\n&lt;/Server>\n&lt;/Servers>"
+        android:textColor="#ffffff"/>
+      
+         
+</RelativeLayout>
+</ScrollView>

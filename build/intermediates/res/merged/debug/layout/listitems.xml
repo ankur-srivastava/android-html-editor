@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/type"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/hfolder" />
+
+    <TextView
+        android:id="@+id/fileFolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        
+        android:clickable="false"
+        android:textSize="18dp"
+        android:text="Name" />
+    <!-- android:onClick="loadFileFolder" -->
+    <TextView
+        android:id="@+id/typeId"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+   <!--  <TextView
+        android:id="@+id/fileSize"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    /> -->
+
+</RelativeLayout>

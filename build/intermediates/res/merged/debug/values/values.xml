@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ftpType_array">
+        <item>FTP - File Transfer Protocol</item>
+        <item>FTPS - Explicit over TLS</item>
+        <item>FTPS - Implicit over TLS</item>
+        <item>SFTP - SSH File Transfer Protocol</item>
+    </string-array>
+    <string name="allow">Allow the user access</string>
+    <string name="app_name">A.H.E</string>
+    <string name="application_error">Application error: %1$s</string>
+    <string name="check_license">Check license</string>
+    <string name="checking_license">Checking license...</string>
+    <string name="dont_allow">Don\'t allow the user access</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="ftpType">Choose a Protocol</string>
+    <string name="quick_input_title">Quick Input</string>
+    <style name="ActionBar.Solid.Ace" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_ace</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_ace</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_ace</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Ace</item>
+    </style>
+    <style name="ActionBar.Transparent.Ace" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_ace</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Ace</item>
+    </style>
+    <style name="ActionBarTabStyle.Ace" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_ace</item>
+    </style>
+    <style name="ActionButton.CloseMode.Ace" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_ace</item>
+    </style>
+    <style name="DropDownListView.Ace" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_ace</item>
+    </style>
+    <style name="DropDownNav.Ace" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_ace</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ace</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_ace</item>
+    </style>
+    <style name="PopupMenu.Ace" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_ace</item>	
+    </style>
+    <style name="ProgressBar.Ace" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_ace</item>
+    </style>
+    <style name="Theme.Ace" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_ace</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Ace</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Ace</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Ace</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Ace</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Ace</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_ace</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_ace</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Ace</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Ace.Widget</item>
+
+    </style>
+    <style name="Theme.Ace.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Ace</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Ace</item>
+    </style>
+</resources>

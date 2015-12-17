@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/filesave" android:icon="@drawable/save" android:title="Save" />
+    <item android:id="@+id/filesaveas" android:icon="@drawable/save" android:title="Save as" />
+    <item android:id="@+id/filesearch" android:icon="@drawable/search" android:title="Find/Replace" />
+    <item android:id="@+id/fileclose" android:icon="@drawable/close" android:title="Close" />
+</menu>

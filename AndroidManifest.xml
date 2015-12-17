@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zen.androidhtmleditor"
+    android:versionCode="16"
+    android:versionName="3" >
+
+    <uses-sdk android:minSdkVersion="11" />
+     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<!-- <uses-permission android:name="com.android.vending.CHECK_LICENSE" />-->
+<!-- android:theme="@android:style/Theme.Holo.Light" -->
+    <application
+        android:icon="@drawable/icon_color"
+       android:theme="@style/Theme.Ace"
+        android:label="@string/app_name" >
+         <!-- android:screenOrientation="portrait" -->
+        
+    
+        <!-- <activity
+            android:label="@string/app_name"
+           
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:name=".TabLoader" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                
+            </intent-filter>
+        </activity> -->
+        
+        <activity
+            android:label="@string/app_name"
+           
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:name=".AHEActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".EditFile"
+       			class=".EditFile" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="EditFile">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+        <activity android:name=".Terminal"
+       			class=".Terminal" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="Terminal">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>           
+ <activity android:name=".Settings"
+       			class=".Settings" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="Settings">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>   
+            <activity android:name=".ThemeList"
+       			class=".ThemeList" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="ThemeList">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity> 
+   
+  <activity android:name=".Themes"
+       			class=".Themes" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="Themes">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>               
+                
+            <activity android:name=".Accounts"
+       			class=".Accounts" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="Accounts">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>    
+            
+   <activity android:name=".AddAccount"
+       			class=".AddAccount" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="AddAccount">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+       <activity android:name=".ImportAccount"
+       			class=".ImportAccount" 
+       			android:configChanges="orientation|keyboard|keyboardHidden"
+                android:label="ImportAccount">
+            <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>  
+       
+       
+       
+    </application>
+    
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+</manifest>

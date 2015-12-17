@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backrepeat"
+    android:id="@+id/layout_root"
+    android:orientation="vertical" >
+    
+    
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:text="Edit FTP Details"
+       android:textColor="#0099cc"
+        android:textSize="28dp"  />
+    <!--  -->
+<TextView
+          android:id="@+id/usernameTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/title"
+          android:layout_marginLeft="10dp"
+           android:textColor="#ffffff"
+          android:textSize="18dp"
+          android:text="FTP Username" />
+      <EditText
+          android:id="@+id/username"
+          android:layout_below="@+id/usernameTitle"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text=""
+          android:inputType="textVisiblePassword"
+          android:singleLine="true"
+           android:layout_marginLeft="10dp"
+          android:textColor="#f8f8f8"
+        android:layout_marginRight="10dp"
+          android:background="@drawable/edittext"
+          android:layout_alignParentLeft="true" />
+<TextView
+          android:id="@+id/passwordTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="10dp"
+           android:textColor="#ffffff"
+           android:textSize="18dp"
+          android:layout_below="@+id/username"
+          android:text="FTP Password" />
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text=""
+          
+          android:singleLine="true"
+          android:layout_marginLeft="10dp"
+          android:textColor="#f8f8f8"
+        android:layout_marginRight="10dp"
+          android:background="@drawable/edittext"
+          android:password="true"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/passwordTitle" />
+<TextView
+          android:id="@+id/serverTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+           android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+          android:layout_below="@+id/password"
+          android:text="Server Address" />
+      <EditText
+          android:id="@+id/server"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+          android:textColor="#f8f8f8"
+          android:singleLine="true"
+          android:inputType="textVisiblePassword"
+        android:layout_marginRight="10dp"
+          android:background="@drawable/edittext"
+          android:text=""
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/serverTitle" />
+      
+      <Spinner
+        android:id="@+id/sftp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+                android:textSize="18dp"
+        android:textColor="#ffffff"  
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+ 
+        android:prompt="@string/ftpType"
+       
+       android:layout_below="@+id/server"
+         />
+      
+ <EditText
+          android:id="@+id/port"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+          android:textColor="#f8f8f8"
+          android:singleLine="true"
+          android:inputType="textVisiblePassword"
+        android:layout_marginRight="10dp"
+          android:background="@drawable/edittext"
+          android:text="21"
+          android:layout_alignParentLeft="true"
+          android:layout_below="@+id/sftp" />
+      
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:id="@+id/buttonsList"
+    android:layout_marginTop="10dp"
+    
+    android:layout_below="@+id/port"
+    android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/saveServer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginBottom="10dp"
+  
+         android:textSize="14dp"
+         android:textColor="#e2e2e2"
+          android:text="Save Account" />
+       <Button
+          android:id="@+id/closeServer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/saveServer"
+          android:layout_marginLeft="5dp"
+          android:layout_marginBottom="10dp"
+          
+         android:textSize="14dp"
+         android:textColor="#e2e2e2"
+          android:text="Close" /> 
+      <Button
+          android:id="@+id/deleteServer"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/closeServer"
+          android:layout_marginLeft="5dp"
+          android:layout_marginBottom="10dp"
+         
+         android:textSize="14dp"
+         android:textColor="#e2e2e2"
+          android:text="Delete" />
+        </LinearLayout>
+        </RelativeLayout>
+        </ScrollView>

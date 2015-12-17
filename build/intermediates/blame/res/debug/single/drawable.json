@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/clear_background.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/clear_background.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/red_underline.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/red_underline.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/progress_horizontal_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/progress_horizontal_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/selectable_background_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/selectable_background_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/green_underline.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/green_underline.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/btn_cab_done_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/btn_cab_done_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/tab_indicator_ab_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/tab_indicator_ab_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/spinner_background_ab_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/spinner_background_ab_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/icon_white.png",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/icon_white.png"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/ab_background_textured_ace.xml",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/ab_background_textured_ace.xml"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/icon_color.png",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/icon_color.png"
+    },
+    {
+        "merged": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/build/intermediates/res/merged/debug/drawable/icon_clear.png",
+        "source": "/Users/ankursrivastava/Desktop/Docs/whyandroid/android-html-editor/res/drawable/icon_clear.png"
+    }
+]

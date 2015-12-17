@@ -1,0 +1,21 @@
+
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="mColorPicker">
+<PreferenceCategory android:title="Color Picker">
+
+<Preference android:key="keywords" android:summary="for|each|while|if..." android:title="Keywords"></Preference>
+
+<Preference android:key="variables" android:summary="$var %var" android:title="Variables"></Preference>
+
+<Preference android:key="comments" android:summary="//Comment #Comment" android:title="Comments"></Preference>
+
+<Preference android:key="strings" android:summary="'strings are enclosed in doovas'" android:title="Strings"></Preference>
+
+<Preference android:key="text" android:summary="Default text" android:title="Text"></Preference>
+
+<Preference android:key="background" android:summary="Background" android:title="Background"></Preference>
+
+<Preference android:key="save" android:summary="Save this theme" android:title="Save"></Preference>
+
+</PreferenceCategory>
+</PreferenceScreen>

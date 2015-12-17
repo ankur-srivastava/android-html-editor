@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+     android:orientation="vertical">
+
+       
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+       android:layout_marginLeft="5dp"
+        android:text="Create a Theme"
+        android:textColor="#0099cc"
+        android:textSize="30dp" />
+    <!--  -->
+    
+    
+    <TextView
+        android:id="@+id/keywords"
+         android:layout_below="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:paddingBottom="10dp"
+
+        android:text="Keywords" />
+ 
+    <TextView
+        android:id="@+id/keywordsSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/keywords"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-14dp"
+        android:text="for|each|while|if..." />
+    
+         
+     
+         
+         
+         <TextView
+        android:id="@+id/variables"
+         android:layout_below="@+id/keywords"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Variables" />
+ 
+    <TextView
+        android:id="@+id/variablesSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/variables"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginTop="-14dp"
+          android:layout_marginBottom="10dp"
+        android:text="$var %var" />
+    
+        
+     
+         
+         
+         <TextView
+        android:id="@+id/comments"
+         android:layout_below="@+id/variables"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+        android:paddingLeft="10dp"
+ 
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+         android:layout_marginTop="10dp"
+        android:text="Comments" />
+ 
+    <TextView
+        android:id="@+id/commentsSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comments"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-14dp"
+        android:text="#comment //comment" />
+         
+     
+    <TextView
+        android:id="@+id/strings"
+         android:layout_below="@+id/comments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+   
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+         android:layout_marginTop="10dp"
+        android:text="Strings" />
+ 
+    <TextView
+        android:id="@+id/stringsSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strings"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-14dp"
+        android:text="'sting text'" />
+         
+     
+    <TextView
+        android:id="@+id/texts"
+         android:layout_below="@+id/strings"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Text"
+        
+        android:paddingBottom="10dp"
+         android:layout_marginTop="10dp"/>
+ 
+    <TextView
+        android:id="@+id/textSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texts"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-14dp"
+        android:text="Default Text" />
+        
+   
+    <TextView
+        android:id="@+id/background"
+         android:layout_below="@+id/texts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ffffff"   
+        android:paddingLeft="10dp"
+     
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+         android:layout_marginTop="10dp"
+        android:text="Background" />
+ 
+    <TextView
+        android:id="@+id/backgroundSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/background"
+        android:textSize="8dp"
+        android:paddingLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-14dp"
+        android:text="Background Color" />
+           
+ 
+    <Button
+          android:id="@+id/save"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+         android:layout_marginTop="10dp"
+         android:gravity="center"
+         android:textColor="#e2e2e2"
+         android:textSize="14dp"
+          android:layout_below="@+id/background"
+          android:text="Save Theme" />
+         
+</RelativeLayout>
+</ScrollView>

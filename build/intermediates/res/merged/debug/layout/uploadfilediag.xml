@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout_root"
+    android:orientation="vertical" >
+    
+   
+
+ 
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+
+        android:text="Upload a file"
+         android:textColor="#0099cc"
+        android:textSize="28dp" />
+
+       <Button
+        android:id="@+id/localBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:visibility="gone"
+        android:textColor="#e2e2e2"
+        android:layout_marginTop="5dp"
+        android:text="../" />
+    
+    <!--  -->
+
+	<TextView android:id="@+id/localPath"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        android:layout_below="@+id/title"/>
+	<ListView android:id="@+id/list"
+	    android:layout_below="@+id/localPath"
+               android:layout_width="match_parent"
+               android:layout_height="fill_parent"
+              android:divider="#606060"
+              android:cacheColorHint="#00000000"
+              android:dividerHeight="1dp"
+               android:layout_weight="1"
+               android:drawSelectorOnTop="false"/>
+
+        </RelativeLayout>

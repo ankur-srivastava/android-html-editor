@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/icon"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:shadowColor="#000000"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:text="Themes"
+        android:textColor="#0099cc"
+        android:textSize="30dp" />
+    <!--  -->
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textView1"
+    android:textSize="11dp"
+    android:padding="5dp"
+    android:text="Long Press to share a theme at androidhtmleditor.com" />
+    
+<ListView android:id="@+android:id/list"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+              android:cacheColorHint="#00000000"
+               android:layout_weight="1"
+               android:divider="#242424"
+               android:layout_below="@+id/textView2"
+               android:drawSelectorOnTop="false"/>
+
+
+
+</RelativeLayout>
